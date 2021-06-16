@@ -1,0 +1,7 @@
+<suite name="RestAssured">
+    <test name="userTest">
+        <classes>
+            <class name = "SampleTest"/>
+        </classes>
+    </test>
+</suite>
