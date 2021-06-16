@@ -1,0 +1,67 @@
+{
+	"id": "e5266cb4-54c6-49aa-bebb-351c0551b77e",
+	"name": "test_collection",
+	"timestamp": "2021-06-11T16:09:46.337Z",
+	"collection_id": "8c49c5cd-30dc-484c-8fe2-613f26c7e774",
+	"folder_id": 0,
+	"environment_id": "e3211ee4-08b1-4e1a-9f9a-0d72d6ac5194",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "41a6509e-ef75-4d01-be47-5136a577d838",
+			"name": "https://api.github.com/users/octocat",
+			"url": "https://api.github.com/users/octocat",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response code is 200": true,
+				"save 'name' value to env variable, value check": true,
+				"check if login value is 'octocat'": true,
+				"clean up - setting name to default value": true
+			},
+			"testPassFailCounts": {
+				"response code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"save 'name' value to env variable, value check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check if login value is 'octocat'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"clean up - setting name to default value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"response code is 200": true,
+					"save 'name' value to env variable, value check": true,
+					"check if login value is 'octocat'": true,
+					"clean up - setting name to default value": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 34,
+	"collection": {
+		"requests": [
+			{
+				"id": "41a6509e-ef75-4d01-be47-5136a577d838",
+				"method": "GET"
+			}
+		]
+	}
+}
