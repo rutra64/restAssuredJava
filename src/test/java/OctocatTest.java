@@ -12,7 +12,7 @@ public class OctocatTest extends BaseTest {
                 .statusCode(200);
     }
 
-    @Test(description = "Fields form response have proper values")
+    @Test(description = "Fields 'name' and 'location' from response have proper values")
     public void checkFieldsValues() {
         REQUEST.get()
                 .then()
